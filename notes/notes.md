@@ -7,3 +7,8 @@
     1. Delete Unneeded rows(summary, second row of headers)
     2. Develop Questions
     3. Plan how to present final outcome
+
+1/17/2026 Agenda:
+    1. Write queries
+    2. Begin answering questions
+    3. Plan final presentations

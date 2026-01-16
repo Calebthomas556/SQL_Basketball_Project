@@ -40,6 +40,8 @@ CREATE TABLE harden_2015_game_logs (
 
 SELECT * FROM harden_2015_game_logs;
 
+SELECT COUNT(*) FROM harden_2015_game_logs;
+
 ALTER TABLE harden_2015_game_logs
 ADD COLUMN game_type TEXT;
 
@@ -50,3 +52,12 @@ WHERE Date < '2015-04-18';
 UPDATE harden_2015_game_logs
 SET game_type = 'Playoff'
 WHERE Date >= '2015-04-18';
+
+DELETE FROM harden_2015_game_logs
+WHERE Date = 'Date';
+
+DELETE FROM harden_2015_game_logs
+WHERE PlusMinus IS NULL;
+
+DELETE FROM harden_2015_game_logs
+WHERE GS = 'Suspended';
