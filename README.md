@@ -84,7 +84,7 @@ This analysis suggests that James Harden was neither a consistent playoff riser 
 
 ## Project Structure
 
-'''
+```
 data/
     james_harden_2014-2015.csv
     james_harden_playoff_2014-15.csv
@@ -95,7 +95,7 @@ sql/
     01_setup.sql
     02_analysis.sql
 README.md
-'''
+```
 
 
 ---
