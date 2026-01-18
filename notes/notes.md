@@ -12,3 +12,8 @@
     1. Write queries
     2. Begin answering questions
     3. Plan final presentations
+
+1/18/2026 Agenda:
+    1. Finish final queries and answer final questions
+    2. Complete README and make sure everything is ready to present
+    3. Push Everything to github and post on linkedin
